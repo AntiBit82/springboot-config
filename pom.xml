@@ -8,6 +8,7 @@
         <version>3.1.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <packaging>pom</packaging>
     <groupId>at.antonio</groupId>
     <artifactId>spring-boot-config</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -16,6 +17,11 @@
     <properties>
         <java.version>17</java.version>
     </properties>
+
+    <modules>
+        <module>spring-cloud-config-server</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
