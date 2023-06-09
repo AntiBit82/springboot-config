@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>at.antonio</groupId>
-		<artifactId>spring-boot-config</artifactId>
+		<artifactId>spring-boot-config-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
